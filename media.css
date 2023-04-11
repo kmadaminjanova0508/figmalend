@@ -1,0 +1,91 @@
+@media (max-width:720px) {
+
+    body{
+        max-width: 720px;
+        width: 100%;
+    }
+    .nav{
+        position: relative;
+    }
+    .navigation li{
+        font-size: 15px;
+    }
+    .socials{
+        display: none;
+    }
+    .nav-list{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+   .cards h3{
+     font-size: 10px;
+   }
+   .main-img{
+    width: 100%;
+   }
+   .play{
+    min-height: 400px;
+    align-items: center;
+
+   
+   }
+   .play img{
+    width: 60px;
+   
+   }
+
+.third{
+    padding-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+   
+}
+.third .btn{
+    position: relative;
+}
+.fourth{
+    text-align: center;
+    padding-left: 155px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    left: 0;
+}
+.fourth img{
+   display: flex;
+position: fixed;
+}
+.general-five{
+    display: flex;
+    align-items: center;
+}
+.five-card{
+    
+    width: 720px;
+    flex-wrap: wrap;
+   padding-left: 100px;
+}
+.five-card2{
+    flex-wrap: wrap;
+    padding-left: 90px;
+}
+.six{
+    display: flex;
+    flex-direction: column;
+}
+.six img{
+   display: none;
+}
+.mappy{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.info-card{
+    width: 720px;
+}
+.loc img{
+ padding-left: 75px;
+}
+ 
+}
